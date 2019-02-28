@@ -39,7 +39,7 @@ const styles = EStyleSheet.create({
     flexDirection: 'column',
     backgroundColor: 'rgba(0, 0, 0, 0.9)',
     width: width,
-    height: height * 0.067,
+    height: height * 0.071,
     zIndex: 30,
   },
   leftContainer: {
@@ -48,7 +48,7 @@ const styles = EStyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'center',
     height: 30,
-    marginTop: height * 0.023,
+    marginTop: height * 0.026,
   },
   mapMarkerIcon: {
     width: 17,

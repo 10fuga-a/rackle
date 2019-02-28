@@ -57,7 +57,12 @@ export default class MovieNavigateComponent extends React.Component<Props, State
     return(
       <View style={styles.content_wrap}>
         <TouchableOpacity style={styles.header__controller_back_wrap} onPress={this.props.setMovieModalVisible}>
-          <Ionicons name={'ios-close-circle'} size={40} color={Color.subColorGray} style={{ textAlign: 'center', opacity: 0.8 }} />
+          <Ionicons
+            name={'ios-close-circle'}
+            size={40}
+            color={Color.subColorGray}
+            style={{ textAlign: 'center', opacity: 0.8, }}
+          />
         </TouchableOpacity>
         <View style={styles.content__movie_wrap}>
           <VideoPlayer
@@ -102,8 +107,8 @@ const styles = EStyleSheet.create({
     width: 40,
     height: 40,
     position: 'absolute',
-    top: '5%',
-    right: '5%',
+    top: '1%',
+    right: '0.5%',
     justifyContent: 'center',
   },
   content__movie_wrap: {

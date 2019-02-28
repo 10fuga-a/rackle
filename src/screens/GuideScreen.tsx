@@ -410,7 +410,7 @@ const styles = EStyleSheet.create({
     height: 45,
     width: width * 0.3,
     left: width * 0.03,
-    top: height * 0.065,
+    top: height * 0.070,
     justifyContent: 'center',
     alignItems: 'center',
     zIndex: 1,
@@ -573,6 +573,9 @@ const styles = EStyleSheet.create({
     fontWeight: '700',
     fontFamily: 'MPLUS1p-Medium',
     color: Colors.white,
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: {width: -1, height: 1},
+    textShadowRadius: 10,
   },
   guideButtonAround: {
     position: 'absolute',
@@ -592,6 +595,9 @@ const styles = EStyleSheet.create({
     color: Colors.white,
     fontSize: '1.5rem',
     fontFamily: 'MPLUS1p-Medium',
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: {width: -1, height: 1},
+    textShadowRadius: 10,
   },
   navigationPlate: {
     position: 'absolute',

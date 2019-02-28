@@ -133,7 +133,8 @@ const styles = EStyleSheet.create({
     borderRadius: 50,
     width: width * 0.13,
     height: width * 0.13,
-    right: width * 0.05,
+    top: height * 0.01,
+    right: width * 0.01,
     marginBottom: 3,
   },
   modalChangeButtonText: {

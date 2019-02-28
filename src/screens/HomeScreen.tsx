@@ -346,7 +346,7 @@ const rootSelectStyle = EStyleSheet.create({
     width: '2.35rem',
     height: '2.35rem',
     borderRadius: 50,
-    marginTop: '0.24rem',
+    marginTop: '0.23rem',
     marginLeft: '0.26rem',
     display: 'flex',
     justifyContent: 'center',

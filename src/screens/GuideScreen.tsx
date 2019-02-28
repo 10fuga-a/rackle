@@ -410,7 +410,7 @@ const styles = EStyleSheet.create({
     height: 45,
     width: width * 0.3,
     left: width * 0.03,
-    top: height * 0.06,
+    top: height * 0.065,
     justifyContent: 'center',
     alignItems: 'center',
     zIndex: 1,
@@ -549,7 +549,9 @@ const styles = EStyleSheet.create({
   },
   carouselMovieBottomText: {
     color: Colors.white,
+    fontSize: '0.8rem',
     fontWeight: '700',
+    marginTop: 2,
   },
   carouselMovieBottomTextAround: {
     alignItems: 'center',

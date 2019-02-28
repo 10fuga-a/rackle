@@ -38,7 +38,8 @@ const styles = EStyleSheet.create({
     borderColor: Color.mainColor,
     borderWidth: 1,
     backgroundColor: 'rgba(0, 0, 0, 0)',
-    marginBottom: height * 0.03,
+    // marginBottom: height * 0.02,
+
   },
   containerText: {
     marginLeft: 'auto',

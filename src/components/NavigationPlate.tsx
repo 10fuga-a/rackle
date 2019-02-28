@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View, TouchableOpacity, Image, Dimensions } from 'react-native';
+import { Text, View, TouchableOpacity, Image, Dimensions, StatusBar } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import Color from '../constants/Colors';
 import { FontAwesome } from '@expo/vector-icons';
@@ -13,6 +13,7 @@ interface Props {
 
 const NavigationPlate: React.FC<Props> = props => (
   <View style={styles.container}>
+    <StatusBar barStyle='light-content' />
     <View style={styles.leftContainer}>
       <Image source={mapMarker} style={styles.mapMarkerIcon}/>
       <Text style={styles.stationName}>{props.stationName}</Text>
@@ -38,7 +39,7 @@ const styles = EStyleSheet.create({
     flexDirection: 'column',
     backgroundColor: 'rgba(0, 0, 0, 0.9)',
     width: width,
-    height: height * 0.06,
+    height: height * 0.067,
     zIndex: 30,
   },
   leftContainer: {
@@ -47,15 +48,15 @@ const styles = EStyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'center',
     height: 30,
-    marginTop: height * 0.015,
+    marginTop: height * 0.023,
   },
   mapMarkerIcon: {
-    width: 18,
-    height: 18,
+    width: 17,
+    height: 17,
     marginLeft: 5,
     textAlign: 'center',
     lineHeight: 30,
-    marginBottom: 2,
+    marginBottom: -3,
   },
   stationName: {
     marginLeft: 5,

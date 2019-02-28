@@ -36,6 +36,8 @@ export default class App extends React.Component <Props, State> {
   private loadResourcesAsync = async () => {
     return Promise.all([
       Asset.loadAsync([
+        require('../assets/images/elevator_setting_big.png'),
+        require('../assets/images/elevator_button.png'),
         require('../assets/images/header-logo-image.png'),
         require('../assets/images/home_image.jpg'),
         require('../assets/images/changeIcon.png'),

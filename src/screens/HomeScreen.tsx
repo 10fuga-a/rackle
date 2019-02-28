@@ -1,5 +1,6 @@
 import * as React from 'react';
-import {Dimensions, StyleSheet, Text, View, ScrollView, TouchableOpacity, Image, ImageBackground} from 'react-native';
+import {Dimensions, StyleSheet, Text, View, ScrollView,
+        TouchableOpacity, Image, ImageBackground, StatusBar} from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import { LinearGradient } from 'expo';
 import Color from '../constants/Colors';
@@ -76,6 +77,7 @@ export default class HomeScreen extends React.Component<Props, State> {
   public render() {
     return (
       <View style={styles.container}>
+      <StatusBar barStyle='light-content' />
       <ScrollView style={styles.ScrollView}>
       <ImageBackground source={homeImage} style={{width: '100%', height: '130%', backgroundSize: 'cover'}}>
         <LinearGradient

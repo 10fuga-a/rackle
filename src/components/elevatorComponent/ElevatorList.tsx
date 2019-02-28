@@ -131,9 +131,10 @@ const styles = EStyleSheet.create({
     position: 'absolute',
     backgroundColor: '#000',
     borderRadius: 50,
-    width: width * 0.12,
-    height: width * 0.12,
+    width: width * 0.13,
+    height: width * 0.13,
     right: width * 0.05,
+    marginBottom: 3,
   },
   modalChangeButtonText: {
     color: Color.white,
@@ -147,7 +148,7 @@ const styles = EStyleSheet.create({
     bottom: height * 0.01,
   },
   listName: {
-    marginTop: height * 0.04,
+    marginTop: height * 0.060,
   },
   listNameText: {
     fontFamily: 'MPLUS1p-Medium',
